@@ -1,0 +1,234 @@
+/*---------------BODY---------------*/
+
+body {
+	color:black;
+	background-color:#130a29;
+	background-image:url("./images/fond1.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	height:36em;
+	margin: auto;
+	max-width: 100em;
+	
+
+}
+hr{
+	margin-left:4em;
+	margin-right:4em;
+	color:solid white;
+}
+
+h1{
+	font-family: "accueil",serif;
+	font-size:45px;
+	color:white;
+	text-shadow: black 3px 0 10px;
+	color:white;
+	text-align:center;
+
+}
+
+
+
+nav{
+	width:100%;
+	justify-content:center;
+	align-items:center;
+	color:white;
+	text-align:center;
+	font-size:20px;
+	align-content:space-between;
+}
+nav a{
+	color:white;
+	align-content:space-between;
+	margin:0 2em;
+	text-decoration:none;
+	width:24em;
+	font-family:"accueil",serif
+}
+
+.toto{
+	font-family: "accueil",serif;
+	font-size:65px;
+	color:white;
+	text-shadow: blue 1px 0 10px;
+	text-align: center;
+	margin-right:1em;
+	margin-left:auto;
+	margin-top:1em;
+}
+#p3{
+
+	margin-top:2em;
+	font-size:30px;
+	text-align:center;
+	color:white;
+	border:white solid 3px;
+	border-width:thick;
+	border-radius:20px;
+	box-shadow: 10px 5px 5px blue;
+}
+a{	font-family:"accueil",serif,
+}
+p{
+	font-size:35px;
+	color:white;
+}
+a{
+	text-decoration:none;
+	color:red
+}
+/*--------FIGURES ET IMAGES -------------*/
+iframe{
+	text-align:center;
+	border:solid white 5px;
+	border-radius:20px;
+	}
+section{
+	text-align:justify;
+	display:block;
+	border:3px solid white;
+	padding:1em;
+	margin-top:1em;
+	border-radius:20px;
+	box-shadow: 10px 5px 5px blue;
+
+
+}
+section figure{
+	width:34em;
+	padding:2em;
+	clear: both;
+	float:right;
+	border:3px solid white;
+	padding:1.5em;
+}
+figure img{
+	max-width: 100%;
+    display: block;
+    margin:auto
+
+}
+
+
+figcaption{
+	text-align:center;
+	margin-top:1em;
+	color:white;
+	font-size:25px
+
+}
+
+
+.images{
+	display:flex;
+	padding:2em;
+
+
+}
+.images img{
+	width:100%;
+	margin:auto;
+	padding:1em;
+	border:solid white 5px;
+	border-radius:20px;
+	margin-top:5em;
+	height:300px
+
+
+
+}
+.images iframe{
+	width:100%;
+	margin:auto;
+	padding:1em;
+	margin:2em
+
+}
+.logo{
+	 width:100px;
+	 height:100px 
+}
+
+/*---------FOOTER------------*/
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 0.5em;
+    border:3px solid white;
+    color: #fff;
+    margin-top:5em;
+    justify-content: space-between;
+}
+footer p{
+	font-size:20px;
+	color:white;
+
+}
+/*------------EFFETS ET TRANSITIONS-------------*/
+
+@font-face {
+   font-family: "accueil";
+   src:url("./police/ValentisaPersonalUse-JRKBx.ttf")
+   
+}
+
+nav a:hover{
+	background-color:#36295b;
+	border-radius:20px;
+	color:white;
+	padding:0.5em;
+	transition:1s
+}
+
+figure:hover {
+	background-color:white;
+	border:3px solid black;
+	border-radius:15px;
+	color:black	;
+	transition:1s
+}
+
+figure:hover figcaption{
+		color:black
+}
+
+.images img:hover{
+	-ms-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+	border:none;
+	transition:2s
+}
+.images iframe:hover{
+	-ms-transform: scale(1.5);
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+	transition: 5s;
+	border:none;
+	transition:2s
+
+}
+section:hover,#p3:hover{
+	-ms-transform: scale(1.05);
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
+	background-color:rgba(0,0,0,0.5);
+	transition:1s
+}
+.toto:hover{
+	text-decoration:underline;
+}
+
+#scrollUp{
+	position: fixed;
+	bottom : 4em;
+	right: 6em;
+	opacity:0.4;
+}
+a:focus{
+	color:green
+}

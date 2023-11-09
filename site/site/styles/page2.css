@@ -1,0 +1,168 @@
+
+/*------BODY--------*/
+html{
+	background-image:url("./images/fond.webp");
+}
+header{
+	max-width: 70em;
+	padding: 4em;
+	margin: auto;
+	background-color: rgb(255,255,255,0.85);
+
+}
+main{
+  background-color:rgb(255,255,255,0.85);
+  margin-top:05em;
+  margin: auto;
+  margin-top:-3em;
+  padding: 4em;
+  padding-top: 0;
+  max-width: 70em;
+
+}
+
+section{
+	text-align:justify;
+	margin:1em;
+	display:block;
+	border:2px dotted gray;
+	padding:2.5em;
+	background-color:white
+}
+
+
+
+.menu li{
+	list-style:none	
+}
+h2{
+	text-align:center;
+	font-size:50px;
+	border:2px solid black;
+	border-radius:20px ;
+	box-shadow:10px 5px 5px #31025e;
+	padding:1em;
+	font-family:louheb;
+	color:black;
+	background-color:white;
+	
+}
+h3{
+	font-size:30px;
+	font-family:louheb;
+	border:2px solid gray;
+	color:#464e5e;
+	border-radius:20px;
+	display:inline-block;
+	padding:0.6em;
+	
+}
+
+cite{
+	text-align:center;
+}
+/*---------FIGURES ET IMAGES----------*/
+figure {
+	clear: both;
+	float:right;
+}
+figure {
+	  width: 20em;
+	  border:1px solid black;
+	  padding:1.5em;
+	  box-shadow:5px 2.5px 2.5px black;
+ }
+main figure img {
+	  max-width: 100%;
+	  display: block;
+	  margin: auto;
+}
+
+
+/*---------NAVIGATION----------*/
+
+.menu{
+	border:2px solid black;
+	border-radius:25px;
+	background-color:white;
+	box-shadow:10px 5px 5px #31025e;
+	margin-top:5em
+}
+.menu ul {
+	display:grid;
+	grid-template-columns:1fr 1fr 1fr 1fr;
+	text-align:justify;
+}
+
+.menu a{
+	text-decoration:none;
+	font-size:22px;
+	text-decoration:none;
+	text-align:center;
+	font-family:louheb;
+	padding:1em;
+	margin-right:70px;
+	color:black;
+}
+/*-------FOOTER---------*/
+	
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 0.5em;
+    border:3px solid white;
+    color: #fff;
+    margin-top:2em;
+    justify-content: space-between;
+    background-color:white;
+}
+footer p{
+	font-size:20px;
+	color:black;
+
+}
+
+/*-------EFFETS ET TRANSITIONS----------*/
+	
+@font-face{
+	font-family:"louheb";
+	src:url("./police/BlackgroundsRegular-1GEYj.ttf")
+}
+h3:hover{
+	margin-left:15px;
+	box-shadow:10px 5px 5px #d1e4e0;
+	text-shadow:5px 2.5px 2.5px #d1e4e0;
+
+}
+h3::before{
+  content : "\01F680";
+  margin-left:10px
+}
+section figure:nth-of-type(odd){
+	float:right
+}
+figure figcaption{
+	text-align:center;
+	margin-top:1em
+}
+figure:hover{
+	-ms-transform: scale(1.05);
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
+	transition: 2.5s
+}
+main li:hover {
+	margin-left:20px;
+	transition: 1s
+}
+main section p::first-letter{
+	font-size:55px;
+	font-weight:bold;
+	font-style:serif
+
+}
+a:focus{
+	font-size:32px
+}
+
+
